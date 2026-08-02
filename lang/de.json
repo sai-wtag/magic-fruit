@@ -1,6 +1,6 @@
 {
   "fruit.pick-fruit": "Wähle eine Frucht aus der Liste",
-  "fruit.confirmation": "Ist die Frucht, die Sie zuvor ausgewählt haben, in dieser Liste verfügbar?",
+  "fruit.confirmation": "Ist die Frucht, die du gewählt hast, in dieser Liste?",
   "fruit.available": "Ist es hier?",
   "fruit.here": "Hier?",
   "fruit.mango": "Mango",
@@ -20,6 +20,11 @@
   "fruit.sapodilla": "Sapodilla",
   "fruit.papaya": "Papaya",
   "fruit.coconut": "Kokosnuss",
+  "board.step": "Schritt 1",
+  "board.hint": "Behalte sie für dich und tippe dann auf Nächste.",
+  "intro.step-pick": "Wähle eine Frucht und halte sie geheim",
+  "intro.step-answer": "Beantworte 7 kurze Ja-oder-Nein-Fragen",
+  "intro.step-reveal": "Sieh zu, wie deine Frucht erraten wird",
   "general.select-language": "Sprache auswählen",
   "general.greetings": "Willkommen im {title} !",
   "general.play": "Spiel starten!",
@@ -27,9 +32,14 @@
   "general.next": "Nächste",
   "general.yes": "Ja",
   "general.no": "Nein",
+  "general.round-of": "Frage {current} von {total}",
+  "general.ta-da": "Tada!",
+  "general.sound-on": "Ton einschalten",
+  "general.sound-off": "Ton ausschalten",
   "general.your-answer": "Die Frucht, die Sie ausgewählt haben, ist:",
   "general.wrong-answer": "Sie schummeln ! 😛",
   "general.play-again": "Nochmal spielen !",
   "general.or": "oder",
-  "project.title": "Zauberfrucht"
+  "project.title": "Zauberfrucht",
+  "project.tagline": "Denk an eine Frucht – ich errate sie in 7 Fragen."
 }

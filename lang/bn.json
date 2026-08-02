@@ -1,6 +1,6 @@
 {
-  "fruit.pick-fruit": "উপরের লিস্ট থেকে মনে মনে যে কোন একটি ফল নির্বাচন করুন",
-  "fruit.confirmation": "উপরের লিস্টে আপনার মনে মনে ধরা ফলটি আছে?",
+  "fruit.pick-fruit": "লিস্ট থেকে মনে মনে যে কোন একটি ফল নির্বাচন করুন",
+  "fruit.confirmation": "আপনার মনে মনে ধরা ফলটি কি এই লিস্টে আছে?",
   "fruit.available": "এখানে আছে?",
   "fruit.here": "এখানে?",
   "fruit.mango": "আম",
@@ -20,6 +20,11 @@
   "fruit.sapodilla": "সফেদা",
   "fruit.papaya": "পেঁপে",
   "fruit.coconut": "নারকেল",
+  "board.step": "ধাপ ১",
+  "board.hint": "ফলটি মনে রাখুন, কাউকে বলবেন না — তারপর পরবর্তী চাপুন।",
+  "intro.step-pick": "একটি ফল বেছে নিন, গোপন রাখুন",
+  "intro.step-answer": "৭টি সহজ হ্যাঁ বা না প্রশ্নের উত্তর দিন",
+  "intro.step-reveal": "দেখুন আপনার ফলটি বলে দেওয়া হচ্ছে",
   "general.select-language": "ভাষা নির্বাচন করুন",
   "general.greetings": "{title} এ আপনাকে স্বাগতম !",
   "general.play": "খেলা শুরু করুন !",
@@ -27,9 +32,14 @@
   "general.next": "পরবর্তী",
   "general.yes": "হ্যাঁ",
   "general.no": "না",
+  "general.round-of": "প্রশ্ন {current} / {total}",
+  "general.ta-da": "চমক !",
+  "general.sound-on": "শব্দ চালু করুন",
+  "general.sound-off": "শব্দ বন্ধ করুন",
   "general.your-answer": "আপনি মনে মনে যে ফলটি ধরেছেন তা হলো:",
   "general.wrong-answer": "আপনি দুষ্টুমি করছেন ! 😛",
-  "general.play-again": "আরো এক বার হয়ে যাক !",
+  "general.play-again": "আরো এক বার হয়ে যাক !",
   "general.or": "অথবা",
-  "project.title": "জাদুর ফল"
+  "project.title": "জাদুর ফল",
+  "project.tagline": "একটি ফল ভাবুন — ৭টি প্রশ্নে আমি বলে দেব।"
 }

@@ -1,6 +1,6 @@
 {
-  "fruit.pick-fruit": "Scegli una frutta dalla lista sopra",
-  "fruit.confirmation": "La frutta selezionata dalla lista sopra è corretta?",
+  "fruit.pick-fruit": "Scegli una frutta dalla lista",
+  "fruit.confirmation": "La frutta che hai scelto è in questa lista?",
   "fruit.available": "Disponibile qui?",
   "fruit.here": "Qui?",
   "fruit.mango": "Mango",
@@ -20,6 +20,11 @@
   "fruit.sapodilla": "Sapodilla",
   "fruit.papaya": "Papaya",
   "fruit.coconut": "Cocco",
+  "board.step": "Passo 1",
+  "board.hint": "Tienila per te, poi tocca Avanti.",
+  "intro.step-pick": "Scegli una frutta e tienila segreta",
+  "intro.step-answer": "Rispondi a 7 rapide domande sì o no",
+  "intro.step-reveal": "Guarda la tua frutta essere indovinata",
   "general.select-language": "Seleziona la lingua",
   "general.greetings": "Benvenuto su {title}!",
   "general.play": "Inizia il gioco!",
@@ -27,9 +32,14 @@
   "general.next": "Avanti",
   "general.yes": "Sì",
   "general.no": "No",
+  "general.round-of": "Domanda {current} di {total}",
+  "general.ta-da": "Ta-dà!",
+  "general.sound-on": "Attiva l'audio",
+  "general.sound-off": "Disattiva l'audio",
   "general.your-answer": "La frutta che hai in mente è:",
   "general.wrong-answer": "Hai risposto male! 😛",
   "general.play-again": "Gioca di nuovo!",
   "general.or": "O",
-  "project.title": "Il Frutto Magico"
+  "project.title": "Il Frutto Magico",
+  "project.tagline": "Pensa a una frutta: la indovino in 7 domande."
 }

@@ -1,6 +1,6 @@
 {
-  "fruit.pick-fruit": "ऊपर से कोई भी फल चुनें",
-  "fruit.confirmation": "क्या आपके मन में यह फल है?",
+  "fruit.pick-fruit": "सूची में से कोई एक फल चुनें",
+  "fruit.confirmation": "क्या आपका चुना हुआ फल इस सूची में है?",
   "fruit.available": "यहाँ उपलब्ध है?",
   "fruit.here": "यहाँ?",
   "fruit.mango": "आम",
@@ -20,6 +20,11 @@
   "fruit.sapodilla": "सपोटा",
   "fruit.papaya": "पपीता",
   "fruit.coconut": "नारियल",
+  "board.step": "चरण 1",
+  "board.hint": "उसे याद रखें, किसी को बताएँ नहीं — फिर आगामी दबाएँ।",
+  "intro.step-pick": "एक फल चुनें और उसे गुप्त रखें",
+  "intro.step-answer": "7 आसान हाँ या नहीं सवालों के जवाब दें",
+  "intro.step-reveal": "देखें आपका फल कैसे बता दिया जाता है",
   "general.select-language": "भाषा चुनें",
   "general.greetings": "{title} में आपका स्वागत है!",
   "general.play": "खेल शुरू करें!",
@@ -27,9 +32,14 @@
   "general.next": "आगामी",
   "general.yes": "हाँ",
   "general.no": "नहीं",
+  "general.round-of": "सवाल {current} / {total}",
+  "general.ta-da": "लीजिए!",
+  "general.sound-on": "ध्वनि चालू करें",
+  "general.sound-off": "ध्वनि बंद करें",
   "general.your-answer": "आपके मन में जो फल है वह है:",
   "general.wrong-answer": "आप गलत जवाब दे रहे हैं! 😛",
   "general.play-again": "फिर से खेलें!",
   "general.or": "या",
-  "project.title": "जादू का फल"
+  "project.title": "जादू का फल",
+  "project.tagline": "एक फल सोचिए — मैं 7 सवालों में बता दूँगा।"
 }

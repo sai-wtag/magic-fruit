@@ -1,13 +1,9 @@
-import bnI18Json from '@/lang/bn.json'
-import enI18Json from '@/lang/en.json'
-import esI18Json from '@/lang/es.json'
-import frI18Json from '@/lang/fr.json'
-import deI18Json from '@/lang/de.json'
+import bn from '@/lang/bn.json'
+import hi from '@/lang/hi.json'
+import en from '@/lang/en.json'
+import es from '@/lang/es.json'
+import fr from '@/lang/fr.json'
+import de from '@/lang/de.json'
+import it from '@/lang/it.json'
 
-export default {
-  bn: { ...bnI18Json },
-  en: { ...enI18Json },
-  es: { ...esI18Json },
-  fr: { ...frI18Json },
-  de: { ...deI18Json },
-}
+export default { bn, hi, en, es, fr, de, it }

@@ -1,6 +1,6 @@
 {
-  "fruit.pick-fruit": "Pick a fruit from the list !",
-  "fruit.confirmation": "Is the fruit available in this list you picked before ?",
+  "fruit.pick-fruit": "Pick a fruit from the list",
+  "fruit.confirmation": "Is the fruit you picked in this list?",
   "fruit.available": "Is it here?",
   "fruit.here": "Here?",
   "fruit.mango": "Mango",
@@ -20,6 +20,11 @@
   "fruit.sapodilla": "Sapodilla",
   "fruit.papaya": "Papaya",
   "fruit.coconut": "Coconut",
+  "board.step": "Step 1",
+  "board.hint": "Keep it to yourself, then tap Next.",
+  "intro.step-pick": "Pick a fruit and keep it secret",
+  "intro.step-answer": "Answer 7 quick yes or no questions",
+  "intro.step-reveal": "Watch your fruit be revealed",
   "general.select-language": "Select Language",
   "general.greetings": "Welcome to {title} !",
   "general.play": "Start Playing !",
@@ -27,9 +32,14 @@
   "general.next": "Next",
   "general.yes": "Yes",
   "general.no": "No",
+  "general.round-of": "Question {current} of {total}",
+  "general.ta-da": "Ta-da!",
+  "general.sound-on": "Turn sound on",
+  "general.sound-off": "Turn sound off",
   "general.your-answer": "The fruit you picked is:",
   "general.wrong-answer": "You are cheating ! 😛",
   "general.play-again": "Play again !",
   "general.or": "Or",
-  "project.title": "Magic Fruit"
+  "project.title": "Magic Fruit",
+  "project.tagline": "Think of a fruit — I'll guess it in 7 questions."
 }

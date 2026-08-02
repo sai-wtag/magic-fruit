@@ -1,8 +1,8 @@
 {
   "fruit.pick-fruit": "Elige una fruta de la lista",
-  "fruit.confirmation": "Ist die Frucht, die Sie zuvor ausgewählt haben, in dieser Liste verfügbar?",
+  "fruit.confirmation": "¿Está la fruta que elegiste en esta lista?",
   "fruit.available": "¿Está aquí?",
-  "fruit.here": "¿Aquí?,",
+  "fruit.here": "¿Aquí?",
   "fruit.mango": "Mango",
   "fruit.berry": "Baya",
   "fruit.jackfruit": "Yaca",
@@ -20,6 +20,11 @@
   "fruit.sapodilla": "Sapodilla",
   "fruit.papaya": "Papaya",
   "fruit.coconut": "Coco",
+  "board.step": "Paso 1",
+  "board.hint": "Guárdatela para ti y pulsa Siguiente.",
+  "intro.step-pick": "Elige una fruta y mantenla en secreto",
+  "intro.step-answer": "Responde 7 preguntas rápidas de sí o no",
+  "intro.step-reveal": "Mira cómo se revela tu fruta",
   "general.select-language": "Seleccionar idioma",
   "general.greetings": "Bienvenida a {title} !",
   "general.play": "¡Empezar a jugar!",
@@ -27,9 +32,14 @@
   "general.next": "Siguiente",
   "general.yes": "Sí",
   "general.no": "No",
+  "general.round-of": "Pregunta {current} de {total}",
+  "general.ta-da": "¡Tachán!",
+  "general.sound-on": "Activar el sonido",
+  "general.sound-off": "Silenciar el sonido",
   "general.your-answer": "La fruta que seleccionaste es:",
   "general.wrong-answer": "¡Estás haciendo trampa ! 😛",
   "general.play-again": "¡Jugar de nuevo !",
   "general.or": "O",
-  "project.title": "Fruta Magica"
+  "project.title": "Fruta Magica",
+  "project.tagline": "Piensa en una fruta: la adivinaré en 7 preguntas."
 }
