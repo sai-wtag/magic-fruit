@@ -18,9 +18,9 @@
       <div v-if="fruit" class="relative animate-pop">
         <span
           aria-hidden="true"
-          class="absolute inset-0 animate-pulse-ring rounded-full bg-brand/30" />
+          class="absolute inset-0 animate-pulse-ring rounded-full bg-glow-brand" />
         <div
-          class="relative grid h-40 w-40 place-items-center rounded-full border border-line/70 bg-card/80 p-6 shadow-lift backdrop-blur-xl sm:h-48 sm:w-48">
+          class="relative grid h-40 w-40 place-items-center rounded-full border border-glass-line bg-glass p-6 shadow-lift backdrop-blur-xl sm:h-48 sm:w-48">
           <FruitImage :id="fruit.id" :alt="fruitName" :size="192" eager />
         </div>
       </div>

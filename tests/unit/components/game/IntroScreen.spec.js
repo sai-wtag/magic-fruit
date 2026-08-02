@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { mountWith, messages } from '@/tests/utils/mount'
+import { mountWith, messages } from '~~/tests/utils/mount'
 import IntroScreen from '@/components/game/IntroScreen.vue'
 
 describe('@/components/game/IntroScreen.vue', () => {

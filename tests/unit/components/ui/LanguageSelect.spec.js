@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { mountWith, messages } from '@/tests/utils/mount'
+import { mountWith, messages } from '~~/tests/utils/mount'
 import LanguageSelect from '@/components/ui/LanguageSelect.vue'
 import { LOCALES } from '@/constants/locales'
 

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { mountWith } from '@/tests/utils/mount'
+import { mountWith } from '~~/tests/utils/mount'
 import RoundProgress from '@/components/game/RoundProgress.vue'
 
 const props = { current: 3, total: 7, percentage: 43 }

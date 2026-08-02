@@ -4,7 +4,7 @@
     data-testid="app-header">
     <div class="flex min-w-0 items-center gap-2.5">
       <span
-        class="grid h-10 w-10 place-items-center rounded-2xl bg-gradient-to-br from-brand to-accent text-on-brand shadow-lift">
+        class="grid h-10 w-10 place-items-center rounded-2xl bg-linear-to-br from-brand to-accent text-on-brand shadow-lift">
         <AppIcon name="sparkles" size="md" />
       </span>
 

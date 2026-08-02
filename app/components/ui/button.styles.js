@@ -16,6 +16,6 @@ export const BUTTON_VARIANTS = {
   positive: 'bg-brand text-on-brand shadow-lift hover:bg-brand-strong',
   negative: 'bg-danger text-on-brand shadow-lift hover:brightness-110',
   neutral:
-    'border border-line bg-card text-ink shadow-card hover:border-brand/50 hover:text-brand',
+    'border border-line bg-card text-ink shadow-card hover:border-brand-hairline hover:text-brand',
   ghost: 'text-muted hover:bg-card hover:text-ink',
 }

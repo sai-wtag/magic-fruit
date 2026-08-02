@@ -2,7 +2,7 @@ import { mount, shallowMount } from '@vue/test-utils'
 import { createI18n } from 'vue-i18n'
 import { createTestingPinia } from '@pinia/testing'
 import { vi } from 'vitest'
-import messages from '@/tests/mocks/i18n'
+import messages from '~~/tests/mocks/i18n'
 
 export function createI18nPlugin(locale = 'en') {
   return createI18n({ legacy: false, locale, messages })

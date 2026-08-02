@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { mountWith, messages } from '@/tests/utils/mount'
+import { mountWith, messages } from '~~/tests/utils/mount'
 import BoardScreen from '@/components/game/BoardScreen.vue'
 import { ALL_FRUITS } from '@/constants/fruits'
 

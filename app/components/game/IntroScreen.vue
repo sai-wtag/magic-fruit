@@ -5,7 +5,7 @@
     <div class="relative animate-pop">
       <span
         aria-hidden="true"
-        class="absolute inset-0 rounded-full bg-brand/30 blur-2xl" />
+        class="absolute inset-0 rounded-full bg-glow-brand blur-2xl" />
       <div class="relative h-40 w-40 animate-float sm:h-52 sm:w-52">
         <FruitImage :id="1" :alt="$t('fruit.jackfruit')" :size="208" eager />
       </div>

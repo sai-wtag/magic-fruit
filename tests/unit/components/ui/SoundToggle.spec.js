@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { mountWith, messages } from '@/tests/utils/mount'
+import { mountWith, messages } from '~~/tests/utils/mount'
 import SoundToggle from '@/components/ui/SoundToggle.vue'
 
 describe('@/components/ui/SoundToggle.vue', () => {

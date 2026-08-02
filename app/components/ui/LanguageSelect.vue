@@ -9,7 +9,7 @@
       data-testid="language-select"
       :value="locale"
       :aria-label="$t('general.select-language')"
-      class="h-11 w-full min-w-[8.5rem] cursor-pointer appearance-none rounded-2xl border border-line bg-card pl-9 pr-9 text-sm font-semibold text-ink transition hover:border-brand/50"
+      class="h-11 w-full min-w-[8.5rem] cursor-pointer appearance-none rounded-2xl border border-line bg-card pl-9 pr-9 text-sm font-semibold text-ink transition hover:border-brand-hairline"
       @change="onChange">
       <option
         v-for="{ code, name } in locales"

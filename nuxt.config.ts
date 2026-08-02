@@ -1,22 +1,23 @@
-import { LOCALES, DEFAULT_LOCALE } from './constants/locales'
+import tailwindcss from '@tailwindcss/vite'
+import { LOCALES, DEFAULT_LOCALE } from './app/constants/locales'
 
 export default defineNuxtConfig({
+  compatibilityDate: '2025-01-01',
+
   devtools: { enabled: false },
 
   modules: ['@nuxtjs/i18n', '@pinia/nuxt'],
 
   css: ['~/assets/css/main.css'],
 
+  // Tailwind v4 is a Vite plugin — no PostCSS pipeline, no tailwind.config.js.
+  vite: {
+    plugins: [tailwindcss()],
+  },
+
   // Flat component names (`<FruitGrid>`, not `<GameFruitGrid>`) so the folder
   // structure can be reorganised without touching every template.
   components: [{ path: '~/components', pathPrefix: false }],
-
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
 
   app: {
     head: {
@@ -27,7 +28,8 @@ export default defineNuxtConfig({
       meta: [
         {
           name: 'description',
-          content: 'Think of a fruit — Magic Fruit will guess it in 7 questions.',
+          content:
+            'Think of a fruit — Magic Fruit will guess it in 7 questions.',
         },
         { name: 'theme-color', content: '#10b981' },
         { name: 'mobile-web-app-capable', content: 'yes' },
@@ -42,7 +44,6 @@ export default defineNuxtConfig({
   i18n: {
     locales: LOCALES,
     lazy: true,
-    langDir: 'lang/',
     defaultLocale: DEFAULT_LOCALE,
     strategy: 'no_prefix',
     detectBrowserLanguage: {

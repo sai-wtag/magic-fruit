@@ -18,7 +18,7 @@
       :aria-valuemax="total">
       <div
         data-testid="round-progress-bar"
-        class="h-full rounded-full bg-gradient-to-r from-brand to-accent transition-[width] duration-500 ease-out"
+        class="h-full rounded-full bg-linear-to-r from-brand to-accent transition-[width] duration-500 ease-out"
         :style="{ width: `${percentage}%` }" />
     </div>
   </div>
